@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+  display: flex;
+}
+
+.desktop-header {
+  display: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  width: 100%;
+  background: #f7f7f9;
+}
+
+section {
+  margin: auto;
+  padding: 0 24px;
+  width: 100%;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background: rgba(255, 255, 255, 0.799);
+  position: sticky;
+  height: 92px;
+  top: 0;
+  z-index: 1;
+}
+
+.navigation .nav {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.navigation img {
+  width: 16px;
+  background: blue;
+  padding: 2px;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070ff;
+  margin-right: 20px;
+}
+
+.headline {
+  background-color: white;
+  background-image: url("./image/header-shapes\ mobile@2x.svg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  border-bottom-left-radius: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headline .container {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 12px;
+}
+
+.container h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.container p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.container > a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+.container ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+
+@media screen and (min-width: 768px) {
+  .contact img {
+    display: none;
+  }
+
+  .body {
+    height: 100vh;
+  }
+
+  .desktop-header {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 32px;
+    justify-content: space-between;
+    padding: 10px 0 10px 10px;
+    animation: fadeIn 3s ease-in;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+  }
+
+  .navigation .nav {
+    display: none;
+  }
+
+  .headline {
+    height: 100vh;
+    background-image: url("./image/Header\ bg@2x.svg");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position: 100%;
+    background-position: 100% 100%;
+  }
+
+ 
+}
