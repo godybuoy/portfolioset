@@ -111,38 +111,3 @@ section {
   flex-direction: row;
   gap: 20px;
 }
-
-@media screen and (min-width: 768px) {
-  .contact img {
-    display: none;
-  }
-
-  .body {
-    height: 100vh;
-  }
-
-  .desktop-header {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    gap: 32px;
-    justify-content: space-between;
-    padding: 10px 0 10px 10px;
-    animation: fadeIn 3s ease-in;
-    animation-delay: 2s;
-    animation-iteration-count: 2;
-  }
-
-  .navigation .nav {
-    display: none;
-  }
-
-  .headline {
-    height: 100vh;
-    background-image: url("./image/Header\ bg@2x.svg");
-    background-repeat: no-repeat;
-    background-position-x: 100%;
-    background-position: 100%;
-    background-position: 100% 100%;
-  }
-}
