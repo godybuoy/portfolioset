@@ -232,6 +232,11 @@ section {
   transition-delay: 0.1s;
 }
 
+.btn:hover {
+  background-color: blue;
+  color: white;
+}
+
 .about {
   background: #fff;
   padding: 30px 30px;
