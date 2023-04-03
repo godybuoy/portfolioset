@@ -382,3 +382,11 @@ form textarea {
   top: 5140px;
   left: 21px;
 }
+
+.start {
+  width: 150px;
+  size: 17px;
+  font-weight: 500;
+  padding: 10px;
+  margin-bottom: 40px;
+}
