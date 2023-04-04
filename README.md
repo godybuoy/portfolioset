@@ -1,10 +1,9 @@
 <a name="readme-top"></a>
 
-  <h3><b>portfolio-setup</b></h3>
+  <h3><b>portfolio-finish-mobile-version</b></h3>
 
 </div>
 
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -28,37 +27,26 @@
 - [📝 License](#license)
 
 
-
-<!-- PROJECT DESCRIPTION -->
-
-# 📖 finish mobile version <a name="about-project"></a>
+# 📖 portfolio mobile setup <a name="about-project"></a>
 
 
 
-**mobile first** is an introductory project.
+**mobile version finish** This is a mobile version project.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 css and html
 
-
-
-
-<!-- Features -->
-
 ### Key Features <a name="key-features"></a>
 
 
-- **header**
-- **colour**
-- **class**
+- **home**
+- **work section**
+- **contact**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -89,19 +77,11 @@ To run tests, run the following command:
 
 open it with a browser.
 
-
-
-<!-- AUTHORS -->
-
 ## 👥 Authors <a name="authors"></a>
 
 
 👤 **godfrey**
 
-
-
-
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
@@ -111,8 +91,6 @@ If you like this project kindly show your love by liking it.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
-
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
@@ -120,8 +98,6 @@ If you like this project kindly show your love by liking it.
 I would like to thank my friends and family.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
