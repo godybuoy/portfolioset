@@ -37,6 +37,14 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 css and html
+
+### Key Features <a name="key-features"></a>
+
+- **This is a replica of a portfolio from figma**
+- **So far I added a toolbar, headline and finally contact form.**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 ## 💻 Getting Started <a name="getting-started"></a>
 
 
