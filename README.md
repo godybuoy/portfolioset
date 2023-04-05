@@ -37,17 +37,6 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 css and html
-
-### Key Features <a name="key-features"></a>
-
-
-- **home**
-- **work section**
-- **contact**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 ## 💻 Getting Started <a name="getting-started"></a>
 
 
