@@ -406,6 +406,12 @@ form textarea {
 
 .start:hover {
   background-color: #6070FF;
-  color: white;
+  color: #fff;
+
+}
+
+.start:active {
+  background-color:#2230d2;
+  color: #fff;
 
 }
