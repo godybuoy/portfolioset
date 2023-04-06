@@ -448,6 +448,9 @@ form textarea {
 
   .container h1 {
     font-family: 'Poppins' "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
+    width: 920px;
+    height: 122px;
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -455,10 +458,7 @@ form textarea {
     display: flex;
     align-items: center;
     letter-spacing: 0.37px;
-    color: #091e42;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    color: #091E42;
   }
 
   .container p {
