@@ -426,10 +426,9 @@ form textarea {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    gap:32px;
+    gap: 32px;
     justify-content: space-between;
     padding: 10px 0 10px 10px;
-
   }
 
   .navigation .nav {
@@ -514,7 +513,7 @@ form textarea {
     margin: auto;
     display: flex;
     flex-direction: row;
-    gap:12px;
+    gap: 12px;
     min-width: 10px;
     width: 100%;
     margin-left: 1px;
@@ -538,10 +537,11 @@ form textarea {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px;
+    padding: 0;
     gap: 24px;
     width: 801px;
   }
+
   .contact h1 {
     margin-top: 100px;
   }
@@ -549,27 +549,26 @@ form textarea {
   .contact_footer p {
     width: 600px;
     height: 102px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
     text-align: center;
-    color: #EBEBFF;
+    color: #ebebff;
   }
 
   form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px;
+    padding: 0;
     gap: 27px;
-    
     width: 447px;
     height: 395px;
   }
 
-  .form-start  {
+  .form-start {
     margin: 1px 0;
   }
 
