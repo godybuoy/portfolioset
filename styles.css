@@ -169,14 +169,14 @@ section {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color:#5b6372;
+  color: #5b6372;
 }
 
 .conduct_year {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color:#5b6372;
+  color: #5b6372;
 }
 
 .work_paragraph {
@@ -461,18 +461,17 @@ form textarea {
     flex-grow: 0;
   }
 
-.container p {
+  .container p {
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-}
+  }
 
   .work_content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 496px;
-}
   }
 
   .work_content img {
@@ -485,7 +484,7 @@ form textarea {
     flex-direction: row-reverse;
   }
 
-  .about {
+  .about1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -522,6 +521,7 @@ form textarea {
   .item .pi {
     width: 18px;
   }
+
   .item {
     margin: auto;
     display: flex;
@@ -550,18 +550,18 @@ form textarea {
     margin-top: 100px;
   }
 
-.contact_footer {
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px;
-gap: 24px;
-width: 801px;
-left: 320px;
-top: 4421px;
-}
+  .contact_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 24px;
+    width: 801px;
+    left: 320px;
+    top: 4421px;
+  }
 
- .contact_footer p {
+  .contact_footer1 p {
     width: 570px;
     margin-top: 20px;
   }
@@ -596,3 +596,4 @@ top: 4421px;
     padding: 10px;
     margin-bottom: 40px;
   }
+}
