@@ -448,7 +448,7 @@ form textarea {
 
   .container h1 {
     font-family: 'Poppins' "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
-    width: 920px;
+    /* width: 90%; */
     height: 122px;
     font-style: normal;
     font-weight: 700;
@@ -487,6 +487,7 @@ form textarea {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 100px 30px;
   }
 
   .about_head {
