@@ -217,6 +217,12 @@ section {
   bottom: 0;
 }
 
+.work img:hover {
+  transform: scale3d(0.9, 0.9, 1.1);
+  transition: transform 0.9s;
+  opacity: 3;
+}
+
 .btn {
   font-weight: 500px;
   font-size: 17px;
@@ -431,6 +437,9 @@ form textarea {
     gap: 32px;
     justify-content: space-between;
     padding: 10px 0 10px 10px;
+    animation: fadeIn 3s ease-in;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
   }
 
   .navigation .nav {
@@ -457,6 +466,19 @@ form textarea {
     align-items: center;
     letter-spacing: 0.37px;
     color: #091e42;
+    animation: fadeIn 1s ease-in;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
   }
 
   .container p {
