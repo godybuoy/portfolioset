@@ -52,7 +52,7 @@ section {
 
 .navigation img {
   width: 16px;
-  background: blue;
+  background: #273ae4;
   padding: 2px;
 }
 
@@ -60,7 +60,7 @@ section {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  color: #6070ff;
+  color: #273ae4;
   margin-right: 20px;
 }
 
@@ -89,7 +89,7 @@ section {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #172b4d;
+  color: #020a16;
 }
 
 .container p {
@@ -147,7 +147,7 @@ section {
   font-weight: 700;
   font-size: 40px;
   line-height: 44px;
-  color: #172b4d;
+  color: #0a101a;
 }
 
 .conduct {
@@ -162,21 +162,21 @@ section {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #344563;
+  color: #17263f;
 }
 
 .conduct_para {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #5b6372;
+  color: #17263f;
 }
 
 .conduct_year {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #5b6372;
+  color: #17263f;
 }
 
 .work_paragraph {
@@ -355,7 +355,7 @@ hr {
   color: #ebebff;
 }
 
-.contact h1 {
+.contact h4 {
   align-items: center;
   font-family: 'poppins', "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
   font-style: normal;
