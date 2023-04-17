@@ -265,7 +265,7 @@ section {
 }
 
 .btn {
-  font-weight: 500px;
+  font-weight: bold;
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -350,9 +350,7 @@ section {
 .about_lang {
   display: flex;
   flex-direction: column;
-  width: 500px;
   text-align: center;
-  justify-content: baseline;
 }
 
 .about_lang > li {
@@ -389,7 +387,7 @@ hr {
   height: 102px;
   font-family: "poppins", "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
   font-style: normal;
-  font-weight: 400px;
+  font-weight: lighter;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
@@ -400,7 +398,7 @@ hr {
   align-items: center;
   font-family: 'poppins', "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
   font-style: normal;
-  font-weight: 700px;
+  font-weight: bolder;
   font-size: 40px;
   line-height: 52px;
   color: #fff;
@@ -501,7 +499,6 @@ form textarea {
   }
 
   .container h1 {
-    font-family: 'Poppins' "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
     height: 122px;
     font-style: normal;
     font-weight: 700;
@@ -568,7 +565,6 @@ form textarea {
   .about_lang {
     display: flex;
     flex-direction: row;
-    min-width: 400px;
     gap: 10px;
     text-align: center;
   }
@@ -657,7 +653,7 @@ form textarea {
 
   .start {
     width: 150px;
-    size: 17px;
+    font-size: 17px;
     font-weight: 500;
     padding: 10px;
     margin-bottom: 40px;
