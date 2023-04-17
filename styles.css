@@ -17,6 +17,11 @@ li {
 
 .desktop-header {
   display: none;
+  flex-direction: column;
+}
+
+.desktop-header a {
+  color: #fff;
 }
 
 body {
@@ -48,6 +53,42 @@ section {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+#dh.open {
+  display: flex;
+  position: fixed;
+  padding: 50px;
+  width: 100%;
+  left: 0;
+  gap: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  align-items: flex-start;
+  top: 0;
+  height: 100vh;
+  background: #3c4debad;
+  color: #fff;
+  backdrop-filter: blur(8px);
+}
+
+.close {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  position: absolute;
+  right: 24px;
+  top: 0;
+  color: white;
+  cursor: pointer;
+  font-size: 30px;
+  margin-top: 8px;
 }
 
 .navigation img {
@@ -147,7 +188,7 @@ section {
   font-weight: 700;
   font-size: 40px;
   line-height: 44px;
-  color: #0a101a;
+  color: #11010bc4;
 }
 
 .conduct {
@@ -428,6 +469,10 @@ form textarea {
 
   .body {
     height: 100vh;
+  }
+
+  #close {
+    display: none;
   }
 
   .desktop-header {
