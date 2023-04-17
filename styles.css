@@ -107,7 +107,7 @@ section {
 
 .headline {
   background-color: white;
-  background-image: url("./image/header-shapes\ mobile@2x.svg");
+  background-image: url("./image/headershapesmobile2.svg");
   background-repeat: no-repeat;
   background-position-x: center;
   border-bottom-left-radius: 50px;
@@ -252,8 +252,6 @@ section {
 
 .contact img {
   position: absolute;
-  height: 709.17px;
-  height: 100%;
   right: 0;
   bottom: 0;
 }
@@ -485,17 +483,19 @@ form textarea {
     animation-iteration-count: 2;
   }
 
+  .desktop-header li a:first-child {
+    color: black;
+  }
+
   .navigation .nav {
     display: none;
   }
 
   .headline {
     height: 100vh;
-    background-image: url("./image/Header\ bg@2x.svg");
+    background-image: url("./image/headerbg2.svg");
     background-repeat: no-repeat;
     background-position-x: 100%;
-    background-position: 100%;
-    background-position: 100% 100%;
   }
 
   .container h1 {
@@ -603,7 +603,7 @@ form textarea {
     flex-direction: column;
     width: 100%;
     height: 100%;
-    background-image: url("./image/contact\ form\ background\ shapes@2x.svg");
+    background-image: url("./image/contactformbackgroundshapes2.svg");
     background-repeat: no-repeat;
     background-position: 100% 100%;
   }
