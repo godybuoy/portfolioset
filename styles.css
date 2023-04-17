@@ -57,6 +57,10 @@ section {
   outline: none;
 }
 
+.dh {
+  display: none;
+}
+
 #dh.open {
   display: flex;
   position: fixed;
@@ -469,6 +473,10 @@ form textarea {
 
   #close {
     display: none;
+  }
+
+  #dh.open {
+    flex-direction: row;
   }
 
   .desktop-header {
