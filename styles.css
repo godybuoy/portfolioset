@@ -17,6 +17,11 @@ li {
 
 .desktop-header {
   display: none;
+  flex-direction: column;
+}
+
+.desktop-header a {
+  color: #fff;
 }
 
 body {
@@ -24,6 +29,7 @@ body {
   font-style: normal;
   width: 100%;
   background: #f7f7f9;
+  scroll-behavior: smooth;
 }
 
 section {
@@ -48,11 +54,55 @@ section {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.desktop-menu ul {
+  display: none;
+}
+
+.dh {
+  display: none;
+}
+
+#dh.open {
+  display: flex;
+  position: fixed;
+  padding: 50px;
+  width: 100%;
+  left: 0;
+  gap: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  align-items: flex-start;
+  top: 0;
+  height: 100vh;
+  background: #3c4debad;
+  color: #fff;
+  backdrop-filter: blur(8px);
+}
+
+.close {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  position: absolute;
+  right: 24px;
+  top: 0;
+  color: white;
+  cursor: pointer;
+  font-size: 30px;
+  margin-top: 8px;
 }
 
 .navigation img {
   width: 16px;
-  background: blue;
+  background: #273ae4;
   padding: 2px;
 }
 
@@ -60,13 +110,13 @@ section {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  color: #6070ff;
+  color: #273ae4;
   margin-right: 20px;
 }
 
 .headline {
   background-color: white;
-  background-image: url("./image/header-shapes\ mobile@2x.svg");
+  background-image: url("./image/headershapesmobile2.svg");
   background-repeat: no-repeat;
   background-position-x: center;
   border-bottom-left-radius: 50px;
@@ -89,7 +139,7 @@ section {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #172b4d;
+  color: #020a16;
 }
 
 .container p {
@@ -147,7 +197,7 @@ section {
   font-weight: 700;
   font-size: 40px;
   line-height: 44px;
-  color: #172b4d;
+  color: #11010bc4;
 }
 
 .conduct {
@@ -162,21 +212,21 @@ section {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #344563;
+  color: #17263f;
 }
 
 .conduct_para {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #5b6372;
+  color: #17263f;
 }
 
 .conduct_year {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #5b6372;
+  color: #17263f;
 }
 
 .work_paragraph {
@@ -211,8 +261,6 @@ section {
 
 .contact img {
   position: absolute;
-  height: 709.17px;
-  height: 100%;
   right: 0;
   bottom: 0;
 }
@@ -224,7 +272,7 @@ section {
 }
 
 .btn {
-  font-weight: 500px;
+  font-weight: bold;
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -309,9 +357,7 @@ section {
 .about_lang {
   display: flex;
   flex-direction: column;
-  width: 500px;
   text-align: center;
-  justify-content: baseline;
 }
 
 .about_lang > li {
@@ -348,18 +394,18 @@ hr {
   height: 102px;
   font-family: "poppins", "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
   font-style: normal;
-  font-weight: 400px;
+  font-weight: lighter;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
   color: #ebebff;
 }
 
-.contact h1 {
+.contact h4 {
   align-items: center;
   font-family: 'poppins', "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
   font-style: normal;
-  font-weight: 700px;
+  font-weight: bolder;
   font-size: 40px;
   line-height: 52px;
   color: #fff;
@@ -430,6 +476,23 @@ form textarea {
     height: 100vh;
   }
 
+  #close {
+    display: none;
+  }
+
+  #dh {
+    display: none;
+  }
+
+  #dh.open {
+    display: none;
+  }
+
+  .desktop-menu ul {
+    display: flex;
+    gap: 1rem;
+  }
+
   .desktop-header {
     display: flex;
     flex-direction: row;
@@ -442,21 +505,22 @@ form textarea {
     animation-iteration-count: 2;
   }
 
+  .desktop-header li a:first-child {
+    color: black;
+  }
+
   .navigation .nav {
     display: none;
   }
 
   .headline {
     height: 100vh;
-    background-image: url("./image/Header\ bg@2x.svg");
+    background-image: url("./image/headerbg2.svg");
     background-repeat: no-repeat;
     background-position-x: 100%;
-    background-position: 100%;
-    background-position: 100% 100%;
   }
 
   .container h1 {
-    font-family: 'Poppins' "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
     height: 122px;
     font-style: normal;
     font-weight: 700;
@@ -523,7 +587,6 @@ form textarea {
   .about_lang {
     display: flex;
     flex-direction: row;
-    min-width: 400px;
     gap: 10px;
     text-align: center;
   }
@@ -562,7 +625,7 @@ form textarea {
     flex-direction: column;
     width: 100%;
     height: 100%;
-    background-image: url("./image/contact\ form\ background\ shapes@2x.svg");
+    background-image: url("./image/contactformbackgroundshapes2.svg");
     background-repeat: no-repeat;
     background-position: 100% 100%;
   }
@@ -612,7 +675,7 @@ form textarea {
 
   .start {
     width: 150px;
-    size: 17px;
+    font-size: 17px;
     font-weight: 500;
     padding: 10px;
     margin-bottom: 40px;
