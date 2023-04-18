@@ -4,16 +4,6 @@ const close = document.getElementById("close");
 const portfolio = document.getElementById("portfolio");
 const about = document.getElementById("about");
 const contact = document.getElementById("contact");
-const screen = window.matchMedia("(min-width: 768px)");
-
-function updateScreen() {
-  if (screen.matches) {
-    dh.style.display = "none";
-  }
-  console.log("Updating screen!!");
-}
-
-screen.addEventListener("change", updateScreen);
 
 hamb.addEventListener("click", () => {
   dh.classList.toggle("open");
@@ -27,3 +17,20 @@ about.addEventListener("click", () => {
 contact.addEventListener("click", () => {
   dh.classList.toggle("open");
 });
+
+const desktop = document.querySelector(".desktop-menu");
+const links = `
+        <li id="portfolio">
+          <a href="#Portfolio">Portfolio</a>
+        </li>
+        <li id="about">
+          <a href="#About">About</a>
+        </li>
+        <li id="contact">
+          <a href="#Contact">Contact</a>
+        </li>
+        <li class="close" id="close">&times;</li>
+`;
+const ul = document.createElement("ul");
+ul.innerHTML = links;
+desktop.appendChild(ul);
