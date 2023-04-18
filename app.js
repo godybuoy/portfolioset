@@ -94,7 +94,6 @@ const popupsProjectDesktop = document.querySelector('.popups-project-p-desktop')
 const popupsProjectMobile = document.querySelector('.popups-project-p-mobile');
 const seeliveaTag = document.querySelector('.see-live-aTag');
 
-
 const btnOne = document.querySelector('.btn-one');
 
 btnOne.addEventListener('click', () => {
