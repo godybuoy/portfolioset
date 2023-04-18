@@ -484,6 +484,10 @@ form textarea {
     display: none;
   }
 
+  #dh.open {
+    display: none;
+  }
+
   .desktop-menu ul {
     display: flex;
     gap: 1rem;

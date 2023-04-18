@@ -17,6 +17,9 @@ about.addEventListener("click", () => {
 contact.addEventListener("click", () => {
   dh.classList.toggle("open");
 });
+close.addEventListener("click", () => {
+  dh.classList.toggle("open");
+});
 
 const desktop = document.querySelector(".desktop-menu");
 const links = `
