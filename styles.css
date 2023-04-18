@@ -29,7 +29,7 @@ body {
   font-style: normal;
   width: 100%;
   background: #f7f7f9;
-  scroll-behavior: smooth; 
+  scroll-behavior: smooth;
 }
 
 section {
@@ -476,12 +476,8 @@ form textarea {
     display: none;
   }
 
-  #dh.open {
-    display: none;
-  }
-
   #dh {
-    display: none;
+    display: inline-flex;
   }
 
   .desktop-header {
