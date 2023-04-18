@@ -58,6 +58,10 @@ section {
   outline: none;
 }
 
+.desktop-menu ul {
+  display: none;
+}
+
 .dh {
   display: none;
 }
@@ -477,7 +481,12 @@ form textarea {
   }
 
   #dh {
-    display: inline-flex;
+    display: none;
+  }
+
+  .desktop-menu ul {
+    display: flex;
+    gap: 1rem;
   }
 
   .desktop-header {
