@@ -18,8 +18,6 @@
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -103,16 +101,6 @@ Run this command:
 To run the project, execute the following command:
 
 Open index.html using live server extension.
-
-### Run tests
-
-> Coming soon.
-
-### Deployment
-
-> Coming soon.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
 
