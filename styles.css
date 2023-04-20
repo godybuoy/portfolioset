@@ -26,16 +26,28 @@
   align-items: center;
   padding: 16px;
   gap: 12px;
+
   /* position: fixed; */
   width: 80%;
-  height: 95%;
   left: calc(50% - 343px / 2);
   top: 60px;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   z-index: 11;
+
   /* overflow-y: scroll; */
+  margin: auto;
+}
+
+.popups-container {
+  width: 100%;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .popups-project-languages-ul .ruby-language {
@@ -98,6 +110,7 @@ li {
 .popup-subt {
   display: flex;
   flex-direction: row;
+  gap: 0.5rem;
 }
 
 .popup-project-info .popup-subt-img {
@@ -114,16 +127,9 @@ li {
 .popups-project-disapper-button {
   background: none;
   border: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 4vh;
-  height: 4vh;
   color: #67798e;
   font-size: large;
   cursor: pointer;
-  position: absolute;
-  margin-left: 70%;
 }
 
 .popups-project-img {
