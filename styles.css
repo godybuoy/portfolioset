@@ -24,15 +24,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: auto;
+  padding: 16px;
   gap: 12px;
+  /* position: fixed; */
   width: 80%;
+  height: 95%;
   left: calc(50% - 343px / 2);
-  background: white;
+  top: 60px;
+  background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   z-index: 11;
-  height: 95%;
+  /* overflow-y: scroll; */
 }
 
 .popups-project-languages-ul .ruby-language {
@@ -906,7 +909,7 @@ form textarea {
   }
 
   .popups-project-disapper-button {
-    margin-left: 80%;
+    margin-left: 90%;
   }
 
   .popup-project-title {
