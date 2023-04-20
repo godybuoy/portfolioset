@@ -168,7 +168,6 @@ btnFour.addEventListener('click', () => {
   popupsRubyLanguageDiv.classList.remove('ruby-language-disappear');
 });
 
-
 const form = document.getElementById('form');
 form.addEventListener('submit', (e) => {
   const validerror = document.getElementById('validerror');
