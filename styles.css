@@ -891,7 +891,6 @@ form textarea {
 
   .popups-container {
     display: flex;
-    margin-right: 53%;
   }
 
   .popups-project-info {
@@ -914,9 +913,9 @@ form textarea {
     flex-wrap: wrap;
   }
 
-  .popups-project-disapper-button {
-    margin-left: 90%;
-  }
+  .popups-projectTitle-and-button {
+    width: 100%;
+}
 
   .popup-project-title {
     font-size: 40px;
@@ -931,10 +930,6 @@ form textarea {
 
   .desktop-lang {
     display: flex;
-  }
-
-  .popups-project-languages {
-    width: fit-content;
   }
 
   .popups-project-img {
