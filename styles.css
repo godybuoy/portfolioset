@@ -662,6 +662,14 @@ form textarea {
   color: #fff;
 }
 
+.error {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #900;
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .contact img {
     display: none;
@@ -922,5 +930,13 @@ form textarea {
   .popups-project-img {
     width: 80%;
     padding: 10px 30px 10px 30px;
+  }
+
+  .d-error {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: #900;
+    display: none;
   }
 }
